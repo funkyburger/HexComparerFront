@@ -3,10 +3,13 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import MenuBar from './components/MenuBar';
+import HexComparer from './components/HexComparer';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <MenuBar />
+    <HexComparer />
   </React.StrictMode>,
   document.getElementById('root')
 );

@@ -1,0 +1,43 @@
+.nav-menu {
+    height: 100px;
+    border: red thin dashed;
+}
+
+.hex-comparer {
+    width: 100%;
+    /* float: left; */
+    border: green thin dashed;
+}
+
+.hex-content-view {
+    width: 50%;
+    /* display:inline; */
+    border: blue thin dashed;
+    box-sizing: border-box;
+    float: left;
+}
+
+.adress-column {
+    width: 20%;
+    float: left;
+}
+
+.data-column {
+    width: 50%;
+    float: left;
+}
+
+.data-column td {
+    width: 25px;
+}
+
+.ascii-column {
+    width: 30%;
+    float: left;
+    letter-spacing: 0.1em;
+}
+
+.ascii-column td {
+    padding-left: 0px;
+    padding-right: 0px;
+}
