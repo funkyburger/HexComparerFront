@@ -1,7 +1,7 @@
 import React from 'react';
-import 'content/default.css';
-import HexContentView from 'components/HexContentView'
-import DataGenerator from 'service/DataGenerator'
+import '../content/default.css';
+import HexContentView from '../components/HexContentView'
+import DataGenerator from '../service/DataGenerator'
 
 export default class HexComparer<P> extends React.Component {
     hexContentView : HexContentView<P> = new HexContentView({});

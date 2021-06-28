@@ -1,8 +1,8 @@
 import React, { RefObject } from 'react';
-import 'content/default.css';
-import AdressColumn from 'components/AdressColumn';
-import DataColumn from 'components/DataColumn';
-import AsciiColumn from 'components/AsciiColumn';
+import '../content/default.css';
+import AdressColumn from '../components/AdressColumn';
+import DataColumn from '../components/DataColumn';
+import AsciiColumn from '../components/AsciiColumn';
 
 export default class HexContentView<P> extends React.Component {
     dragCounter : number = 0;

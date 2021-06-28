@@ -1,5 +1,5 @@
 import React from 'react';
-import 'content/default.css';
+import '../content/default.css';
 
 export default class MenuBar extends React.Component {
     render() {

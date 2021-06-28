@@ -1,6 +1,6 @@
 import React from 'react';
-import 'content/default.css';
-import StringUtil from 'utils/StringUtil'
+import '../content/default.css';
+import StringUtil from '../utils/StringUtil'
 
 export default class DataColumn extends React.Component {
 

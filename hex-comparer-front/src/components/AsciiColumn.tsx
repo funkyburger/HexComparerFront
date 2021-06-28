@@ -1,5 +1,5 @@
 import React from 'react';
-import StringUtil from 'utils/StringUtil'
+import StringUtil from '../utils/StringUtil'
 
 export default class AsciiColumn extends React.Component {
     lines : Array<Array<string>> = [];

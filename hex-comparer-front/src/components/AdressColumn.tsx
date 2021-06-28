@@ -1,5 +1,5 @@
 import React from 'react';
-import StringUtil from 'utils/StringUtil'
+import StringUtil from '../utils/StringUtil'
 
 export default class AdressColumn extends React.Component {
     address : number = 0;
